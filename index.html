@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque corrupti adipisci vel consequuntur culpa, voluptas quam error, sapiente mollitia et a iusto vero tenetur ea alias illo incidunt voluptatibus ullam.</div>
+    <style>
+        @font-face {
+            font-family: roboto;
+            src: url(css/fonts/Roboto-Medium.ttf);
+        }
+        @font-face {
+            font-family: lato;
+            src: url(css/fonts/Lato-Black.ttf);
+        }
 
-    
+        p {
+            font-family: roboto;
+            text-transform: uppercase;
+            font-size: 20px;
+
+        }
+        p::before,
+        p::after {
+            content: "“";
+            font-size: 30px;
+            font-family: lato;
+            color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque corrupti adipisci vel consequuntur culpa,
+        voluptas quam error, sapiente mollitia et a iusto vero tenetur ea alias illo incidunt voluptatibus ullam.
+    </p>
+
+
 </body>
+
 </html>
