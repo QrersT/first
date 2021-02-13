@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+}
+header{
+    background-color: rgb(91, 223, 124);
+    height: 50px;
+}
+nav{
+    background-color: rgb(92, 143, 41);
+    height: 40px;
+}
+
+main{
+    /* если вставить display: flex; то работает*/
+    
+
+}
+
+#sidebar{
+    background-color: lawngreen;
+    height: 600px;
+    width: 20%;
+    float: left;
+    
+}
+#content{
+    background-color: lightskyblue;
+    height: 600px;
+    width: 60%;
+    
+
+}
+#aside{
+    background-color: lightcoral;
+    height: 600px;
+    width: 20%;
+    float: inline-end; /* не рабоатет, float right тоже*/
+    
+}
+footer{
+    background-color: red;
+    height: 70px;
+}
