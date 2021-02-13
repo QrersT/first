@@ -1,0 +1,12 @@
+ul{
+    width: 20px;
+}
+li{
+    display: inline-block;
+}
+ul li::before{
+    content: initial;
+    padding: 10px;
+    color: red;
+
+}
