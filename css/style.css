@@ -1,8 +1,17 @@
-main{
-    position: absolute center;
-    border:  solid red;
-    width: 50%;
+*{
+    background-color: grey;
+}
+main:not(*){
+    position: relative;
+    border:  5px solid red;
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 30%;
+    
+    
+    
+    
 }
 #logo{
     text-align: center;
-}
+} 
