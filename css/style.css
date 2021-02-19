@@ -1,11 +1,22 @@
+*{
+    text-align: center;
+}
+td{
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    
+}
+
 ul{
-    width: 20px;
+    
 }
 li{
+    list-style-type: none;
     display: inline-block;
+    margin: 0 5px 5px 0;
+    
 }
-ul li::before{
-    padding: 10px;
-    color: red;
-
+ul:nth-child(1){
+    background-color: rgb(222, 253, 191);
 }
